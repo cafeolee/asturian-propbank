@@ -2,7 +2,6 @@
 
 **Lilia Marina Jiménez Redondo, Inés Martínez Fernández, Paula Posadas Postigo**
 
----
 
 ## Introduction
 
@@ -10,7 +9,6 @@ Asturian is a Romance language spoken in the Asturias region of northern Spain. 
 
 The PropBank framework (Bonial et al., 2014) is one of the most widely used approaches to represent verb semantics, focusing on predicate-argument structures in a consistent and systematic way. While similar resources exist for languages such as Spanish and Catalan through projects like AncoraVerb (Aparicio et al., 2008), no equivalent resource existed for Asturian. Our work provides a first foundational resource for semantic parsing and other NLP tasks in this language.
 
----
 
 ## Data
 
@@ -18,7 +16,6 @@ The corpus was compiled from the Asturian Wikipedia via the Leipzig Corpora Coll
 
 Automatic preprocessing was carried out using FreeLing (Padró and Stanilovsky, 2012), one of the few NLP tools with support for Asturian. Due to instability in FreeLing's Python API, a parallelized bash script was written to process sentences individually, preventing data loss from crashes. POS-tagging and lemmatization results were then manually reviewed and corrected. From the processed corpus, verb frequency counts were extracted to guide verb selection.
 
----
 
 ## Verb Lexicon
 
@@ -26,7 +23,6 @@ Five high-frequency verbs were selected for annotation: *poder*, *haber*, *ganar
 
 Each verb entry was constructed following a structured pipeline: dictionary entries were consulted in the ALLA dictionary (Academia de la Llingua Asturiana, 2026) and cross-referenced with additional lexical resources (La Nueva España, 2026). Closely related senses were merged and simplified, and argument structures were defined following PropBank conventions. The resulting entries include a unique identifier, a semantic description, a set of core arguments and an illustrative example from the corpus. The full lexicon is available in [`verb-lexicon/`](./verb-lexicon/).
 
----
 
 ## Annotation Scheme
 
@@ -45,7 +41,6 @@ El ministru [ARG1] caltúvose [REL] tres años [ARGM-TMP] nel gobiernu [ARGM-LOC
 
 Annotation quality was evaluated on 50 sentences (10 per verb) by two annotators, one of whom was a native Asturian speaker. Inter-annotator agreement was measured using Cohen's Kappa, resulting in a score of **0.818**, indicating strong agreement and suggesting that the resource is well-defined and consistently applicable.
 
----
 
 ## Limitations and Future Work
 
