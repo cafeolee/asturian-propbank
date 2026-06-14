@@ -1,11 +1,11 @@
-# Asturian PropBank — A Semantic Annotation Framework for a Low-Resource Language
+# AA Semantic-Annotated Corpus for Asturian Based on PropBank
 
 **Lilia Marina Jiménez Redondo, Inés Martínez Fernández, Paula Posadas Postigo**
 
 
 ## Introduction
 
-Asturian is a Romance language spoken in the Asturias region of northern Spain. As a low-resource language, it lacks many of the annotated corpora and NLP tools that are commonly available for majority languages, making it difficult to develop advanced NLP applications. This work takes a step towards reducing that gap by developing a PropBank-style semantic annotation framework adapted to Asturian.
+Asturian is a Romance language spoken in the Asturias region of northern Spain. As a low-resource language, it lacks many of the annotated corpora and NLP tools that are commonly available for majority languages, making it difficult to develop advanced NLP applications. This work takes a step towards reducing that gap by using a PropBank-style semantic annotation framework adapted to Asturian.
 
 The PropBank framework (Bonial et al., 2014) is one of the most widely used approaches to represent verb semantics, focusing on predicate-argument structures in a consistent and systematic way. While similar resources exist for languages such as Spanish and Catalan through projects like AncoraVerb (Aparicio et al., 2008), no equivalent resource existed for Asturian. Our work provides a first foundational resource for semantic parsing and other NLP tasks in this language.
 
