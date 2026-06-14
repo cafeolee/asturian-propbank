@@ -1,4 +1,4 @@
-# AA Semantic-Annotated Corpus for Asturian Based on PropBank
+# A Semantic-Annotated Corpus for Asturian Based on PropBank
 
 **Lilia Marina Jiménez Redondo, Inés Martínez Fernández, Paula Posadas Postigo**
 
