@@ -55,8 +55,8 @@ The methodology is designed to be extensible. Future work could expand the lexic
 ```
 asturian-propbank/
 ├── README.md
-├── corpus/                        # Annotated sentences
-├── verb-lexicon/                  # Full verb entries
+├── corpus.xlsx                    # Annotated sentences
+├── verb-lexicon.pdf               # Full verb entries
 └── annotation-guidelines/
     └── annotation-scheme.md       # Full label reference
 ```
